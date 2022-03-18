@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".pemutarmusik">
+
+
+    <TextView
+        android:id="@+id/song_title"
+        android:layout_width="335dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="642dp"
+        android:text="Judul Lagu"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="335dp"
+        android:layout_height="335dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="302dp"
+        android:src="@drawable/logomucis" />
+
+    <SeekBar
+        android:id="@+id/player_control"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="273dp" />
+
+
+    <ImageButton
+        android:id="@+id/btn_play"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="134dp"
+        app:srcCompat="@drawable/play" />
+
+    <ImageButton
+        android:id="@+id/btn_stop"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="134dp"
+        app:srcCompat="@drawable/stop" />
+
+    <TextView
+        android:id="@+id/total_waktu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="244dp"
+        android:text="0 min, 0 sec"
+        android:textColor="@color/white"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/waktu_berjalan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="244dp"
+        android:text="0 min, 0 sec"
+        android:textColor="@color/white"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="134dp"
+        app:srcCompat="@drawable/next" />
+
+    <ImageButton
+        android:id="@+id/previous"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="134dp"
+        app:srcCompat="@drawable/previous" />
+
+
+
+
+
+
+
+
+</RelativeLayout>
